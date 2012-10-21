@@ -54,7 +54,7 @@ public class LocationDectorActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.location_detector_view);
 		
-	// remove this old style titlebar in android 
+		
 		titleBar=(TextView) getWindow().findViewById(android.R.id.title);
         titleBar.setGravity(android.view.Gravity.CENTER_HORIZONTAL);
         if(titleBar!=null){

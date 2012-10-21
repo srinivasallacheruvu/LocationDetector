@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+ xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <Button android:id="@+id/refresh"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:text="Get Location" />
+    
+     <TextView android:textColor="#fff000" android:gravity="center" android:layout_gravity="center_horizontal"
+   android:layout_width="fill_parent"
+   android:layout_height="0dip"
+   android:text="Location"
+   android:id="@+id/titlelocation"
+   android:background="#505050"/>
+    
+<TextView  android:gravity="center" android:layout_gravity="center_horizontal"
+      android:layout_height="0dip" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Waiting..."
+      android:id="@+id/textOut"></TextView>
+
+    
+  <TextView   android:textColor="#fff000" android:gravity="center" android:layout_gravity="left"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="Location Info"
+   android:background="#505050"
+   />
+   
+   <TextView android:gravity="left" android:layout_gravity="left" android:textColor="#fff000"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Address:"
+      ></TextView>
+   
+   <TextView android:gravity="left" android:layout_gravity="left"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Waiting..."
+      android:id="@+id/textaddr"></TextView>
+     
+     <TextView android:gravity="left" android:layout_gravity="left" android:textColor="#fff000"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Sub-Admin Area:"
+      ></TextView>
+     
+   <TextView android:gravity="left" android:layout_gravity="left" 
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Waiting..."
+      android:id="@+id/textsubadmin"></TextView>
+      
+      
+      <TextView android:gravity="left" android:layout_gravity="left" android:textColor="#fff000"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Admin Area:"
+      ></TextView>
+      
+    <TextView android:gravity="left" android:layout_gravity="left"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Waiting..."
+      android:id="@+id/textadmin"></TextView>
+     
+     <TextView android:gravity="left" android:layout_gravity="left" android:textColor="#fff000"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Country Name:"
+      ></TextView>
+     
+     
+     <TextView android:gravity="left" android:layout_gravity="left"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Waiting..."
+      android:id="@+id/textcountryname"></TextView>
+      
+      
+      <TextView android:gravity="left" android:layout_gravity="left" android:textColor="#fff000"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Feature Name:"
+      ></TextView>
+      
+      <TextView android:gravity="left" android:layout_gravity="left"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Waiting..."
+      android:id="@+id/textfeaturename"></TextView>
+      
+      <TextView android:gravity="left" android:layout_gravity="left" android:textColor="#fff000"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Sub-Locality:"
+      ></TextView>
+      
+      <TextView android:gravity="left" android:layout_gravity="left"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Waiting..."
+      android:id="@+id/textsublocality"></TextView>
+      
+       
+       <TextView android:gravity="left" android:layout_gravity="left" android:textColor="#fff000"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Locality:"
+      ></TextView>
+       
+       <TextView android:gravity="left" android:layout_gravity="left"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Waiting..."
+      android:id="@+id/textlocality"></TextView>
+      
+       <TextView android:gravity="left" android:layout_gravity="left" android:textColor="#fff000"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Phone:"
+      ></TextView>
+       
+       <TextView android:gravity="left" android:layout_gravity="left"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Waiting..."
+      android:id="@+id/textphone"></TextView>
+      
+      
+      <TextView android:gravity="left" android:layout_gravity="left" android:textColor="#fff000"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Postal Code:"
+      ></TextView>
+      
+       <TextView android:gravity="left" android:layout_gravity="left"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Waiting..."
+      android:id="@+id/textpostalcode"></TextView>
+      
+      <TextView android:gravity="left" android:layout_gravity="left" android:textColor="#fff000"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Premises:"
+      ></TextView>
+      
+      <TextView android:gravity="left" android:layout_gravity="left"
+      android:layout_height="wrap_content" android:layout_width="wrap_content"
+      android:textSize="15dp" android:text="Waiting..."
+      android:id="@+id/textpremises"></TextView>
+
+</LinearLayout>
+</ScrollView>
